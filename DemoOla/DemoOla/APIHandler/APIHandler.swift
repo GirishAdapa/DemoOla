@@ -13,7 +13,7 @@ class API_HANDLER {
     //"https://i.imgur.com/UqzFXjd.png"
 
     static let baseURLString = "http://www.mocky.io/v2"
-    static let annotationList = " /5dc3f2c13000003c003477a0"
+    static let annotationList = "/5dc3f2c13000003c003477a0"
    
 }
 

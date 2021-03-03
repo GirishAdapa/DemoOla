@@ -15,7 +15,7 @@ protocol MapModelType: ReuseAPIDelegate {
 
 
 class ReuseMovieViewModel: MapModelType {
-    
+   
     var mapListRespData: [MapVWResponceModel]?
     
     
@@ -30,7 +30,7 @@ class ReuseMovieViewModel: MapModelType {
        
     
     //Annotation API
-    func movieListApiReq(requestStr: URL,methodType: String, bodyParams: MapVWRequestModel) {
+    func mapListApiReq(requestStr: URL, methodType: String, bodyParams: MapVWRequestModel) {
         
         dataSource.mapListFetch(methodType: methodType, reqStr: requestStr, params: bodyParams) { (mapAnnotationResp, err, dataFail) in
             if err == nil && dataFail == nil

@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		EA03418E25EFAE1200845EB1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA03418D25EFAE1200845EB1 /* AppDelegate.swift */; };
 		EA03419025EFAE1200845EB1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA03418F25EFAE1200845EB1 /* SceneDelegate.swift */; };
-		EA03419225EFAE1200845EB1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA03419125EFAE1200845EB1 /* ViewController.swift */; };
+		EA03419225EFAE1200845EB1 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA03419125EFAE1200845EB1 /* MapViewController.swift */; };
 		EA03419525EFAE1200845EB1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA03419325EFAE1200845EB1 /* Main.storyboard */; };
 		EA03419725EFAE1300845EB1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA03419625EFAE1300845EB1 /* Assets.xcassets */; };
 		EA03419A25EFAE1300845EB1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA03419825EFAE1300845EB1 /* LaunchScreen.storyboard */; };
@@ -26,6 +26,8 @@
 		EA0341D025EFAEA300845EB1 /* MapVWResponceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA0341CB25EFAEA300845EB1 /* MapVWResponceModel.swift */; };
 		EA0341D125EFAEA300845EB1 /* MapVW_InterFace.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA0341CC25EFAEA300845EB1 /* MapVW_InterFace.swift */; };
 		EA0341D225EFAEA300845EB1 /* MapVWRequestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA0341CD25EFAEA300845EB1 /* MapVWRequestModel.swift */; };
+		EA0341D925EFC59500845EB1 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA0341D825EFC59500845EB1 /* CoreLocation.framework */; };
+		EA0341DB25EFC5A000845EB1 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA0341DA25EFC5A000845EB1 /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,7 +51,7 @@
 		EA03418A25EFAE1200845EB1 /* DemoOla.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoOla.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA03418D25EFAE1200845EB1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EA03418F25EFAE1200845EB1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		EA03419125EFAE1200845EB1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EA03419125EFAE1200845EB1 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		EA03419425EFAE1200845EB1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EA03419625EFAE1300845EB1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EA03419925EFAE1300845EB1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -71,6 +73,8 @@
 		EA0341CB25EFAEA300845EB1 /* MapVWResponceModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapVWResponceModel.swift; sourceTree = "<group>"; };
 		EA0341CC25EFAEA300845EB1 /* MapVW_InterFace.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapVW_InterFace.swift; sourceTree = "<group>"; };
 		EA0341CD25EFAEA300845EB1 /* MapVWRequestModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapVWRequestModel.swift; sourceTree = "<group>"; };
+		EA0341D825EFC59500845EB1 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		EA0341DA25EFC5A000845EB1 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +82,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA0341DB25EFC5A000845EB1 /* MapKit.framework in Frameworks */,
+				EA0341D925EFC59500845EB1 /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -105,6 +111,7 @@
 				EA0341A325EFAE1300845EB1 /* DemoOlaTests */,
 				EA0341AE25EFAE1300845EB1 /* DemoOlaUITests */,
 				EA03418B25EFAE1200845EB1 /* Products */,
+				EA0341D725EFC59500845EB1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -127,7 +134,7 @@
 				EA0341D325EFAEB000845EB1 /* MVVM */,
 				EA03418D25EFAE1200845EB1 /* AppDelegate.swift */,
 				EA03418F25EFAE1200845EB1 /* SceneDelegate.swift */,
-				EA03419125EFAE1200845EB1 /* ViewController.swift */,
+				EA03419125EFAE1200845EB1 /* MapViewController.swift */,
 				EA03419325EFAE1200845EB1 /* Main.storyboard */,
 				EA03419625EFAE1300845EB1 /* Assets.xcassets */,
 				EA03419825EFAE1300845EB1 /* LaunchScreen.storyboard */,
@@ -191,6 +198,15 @@
 				EA0341C325EFAE9000845EB1 /* JsonPrepare.swift */,
 			);
 			path = ReuseUtilities;
+			sourceTree = "<group>";
+		};
+		EA0341D725EFC59500845EB1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EA0341DA25EFC5A000845EB1 /* MapKit.framework */,
+				EA0341D825EFC59500845EB1 /* CoreLocation.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -324,7 +340,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EA03419225EFAE1200845EB1 /* ViewController.swift in Sources */,
+				EA03419225EFAE1200845EB1 /* MapViewController.swift in Sources */,
 				EA0341C025EFAE7A00845EB1 /* NetWorkingClient.swift in Sources */,
 				EA0341CE25EFAEA300845EB1 /* Map_DataStore.swift in Sources */,
 				EA0341D125EFAEA300845EB1 /* MapVW_InterFace.swift in Sources */,

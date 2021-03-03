@@ -17,6 +17,6 @@ protocol MapVW_InterFaceDelegate: class {
 
 protocol ReuseAPIDelegate {
 //Annotation List
-  func movieListApiReq(requestStr: URL,methodType: String, bodyParams: MapVWRequestModel)
+  func mapListApiReq(requestStr: URL,methodType: String, bodyParams: MapVWRequestModel)
   var  notifyDelegate: MapVW_InterFaceDelegate? { get set }
 }
