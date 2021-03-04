@@ -34,6 +34,7 @@ struct MapVWResponceModel: Codable {
 class CustomPin: NSObject, MKAnnotation{
     var title: String?
     var subtitle: String?
+    var imgUrl: String?
     var latitude: Double
     var longitude:Double
 
