@@ -28,6 +28,7 @@
 		EA0341D225EFAEA300845EB1 /* MapVWRequestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA0341CD25EFAEA300845EB1 /* MapVWRequestModel.swift */; };
 		EA0341D925EFC59500845EB1 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA0341D825EFC59500845EB1 /* CoreLocation.framework */; };
 		EA0341DB25EFC5A000845EB1 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA0341DA25EFC5A000845EB1 /* MapKit.framework */; };
+		EA84545325F0861000B128B5 /* Constraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA84545225F0861000B128B5 /* Constraints.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -75,6 +76,7 @@
 		EA0341CD25EFAEA300845EB1 /* MapVWRequestModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapVWRequestModel.swift; sourceTree = "<group>"; };
 		EA0341D825EFC59500845EB1 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		EA0341DA25EFC5A000845EB1 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		EA84545225F0861000B128B5 /* Constraints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constraints.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -196,6 +198,7 @@
 				EA0341C425EFAE9000845EB1 /* ImageLoader.swift */,
 				EA0341C225EFAE9000845EB1 /* AlertDialogue.swift */,
 				EA0341C325EFAE9000845EB1 /* JsonPrepare.swift */,
+				EA84545225F0861000B128B5 /* Constraints.swift */,
 			);
 			path = ReuseUtilities;
 			sourceTree = "<group>";
@@ -347,6 +350,7 @@
 				EA0341CF25EFAEA300845EB1 /* Map_ViewModel.swift in Sources */,
 				EA03418E25EFAE1200845EB1 /* AppDelegate.swift in Sources */,
 				EA0341C625EFAE9100845EB1 /* AlertDialogue.swift in Sources */,
+				EA84545325F0861000B128B5 /* Constraints.swift in Sources */,
 				EA0341C525EFAE9100845EB1 /* URLRequest.swift in Sources */,
 				EA0341C825EFAE9100845EB1 /* ImageLoader.swift in Sources */,
 				EA0341C725EFAE9100845EB1 /* JsonPrepare.swift in Sources */,
